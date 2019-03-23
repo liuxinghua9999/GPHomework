@@ -7,5 +7,5 @@ package com.gupaoedu.homework.pattern.factory;
  */
 public class Car {
     private String name;
-    private Integer ;
+    private Integer price;
 }
