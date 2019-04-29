@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="factory" />
+        <module name="singleton" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="factory" target="1.8" />
       <module name="pattern" target="1.8" />
+      <module name="singleton" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

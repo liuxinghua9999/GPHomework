@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/GPHomework.iml" filepath="$PROJECT_DIR$/.idea/GPHomework.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern/factory/factory.iml" filepath="$PROJECT_DIR$/pattern/factory/factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern/pattern.iml" filepath="$PROJECT_DIR$/pattern/pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern/singleton/singleton.iml" filepath="$PROJECT_DIR$/pattern/singleton/singleton.iml" />
     </modules>
   </component>
 </project>

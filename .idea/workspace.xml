@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bbc3dd3-01ba-4b15-8321-20804026416d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/pattern/singleton/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/singleton/singleton.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/container/ContainerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/container/ContainerSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/hungry/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/hungry/HungryStaticSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/lazy/ExectorThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/lazy/LazyDoubleCheckSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/lazy/LazyInnerClassSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/lazy/LazySimpleSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/register/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/register/EnumSingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pattern/target/" />
     <ignored path="$PROJECT_DIR$/pattern/factory/target/" />
+    <ignored path="$PROJECT_DIR$/pattern/singleton/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,74 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CarFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/simple/CarFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/com.gupaoedu.homework.pattern.factory.simple.CarFactory" pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/com.gupaoedu.homework.pattern.factory.simple.CarFactory">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.gupaoedu.homework.pattern.factory.simple.CarFactory</OriginalElement>
-              <nodes>
-                <node x="107.11666666666666" y="162.0">com.gupaoedu.homework.pattern.factory.simple.CarFactory</node>
-                <node x="0.0" y="81.0">com.gupaoedu.homework.pattern.factory.entity.BMWCar</node>
-                <node x="128.5" y="0.0">com.gupaoedu.homework.pattern.factory.entity.ICar</node>
-                <node x="117.99999999999999" y="81.0">com.gupaoedu.homework.pattern.factory.entity.BjevCar</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.gupaoedu.homework.pattern.factory.entity.BjevCar" target="com.gupaoedu.homework.pattern.factory.entity.ICar">
-                  <point x="0.0" y="-15.5" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="com.gupaoedu.homework.pattern.factory.simple.CarFactory" target="com.gupaoedu.homework.pattern.factory.entity.BjevCar">
-                  <point x="0.0" y="-15.5" />
-                  <point x="162.11666666666667" y="137.0" />
-                  <point x="163.5" y="137.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="com.gupaoedu.homework.pattern.factory.simple.CarFactory" target="com.gupaoedu.homework.pattern.factory.entity.BMWCar">
-                  <point x="-36.66666666666666" y="-15.5" />
-                  <point x="125.45" y="137.0" />
-                  <point x="49.0" y="137.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="com.gupaoedu.homework.pattern.factory.entity.BMWCar" target="com.gupaoedu.homework.pattern.factory.entity.ICar">
-                  <point x="0.0" y="-15.5" />
-                  <point x="49.0" y="56.0" />
-                  <point x="140.16666666666663" y="56.0" />
-                  <point x="-23.333333333333343" y="15.5" />
-                </edge>
-                <edge source="com.gupaoedu.homework.pattern.factory.simple.CarFactory" target="com.gupaoedu.homework.pattern.factory.entity.ICar">
-                  <point x="36.66666666666666" y="-15.5" />
-                  <point x="198.7833333333333" y="137.0" />
-                  <point x="219.5" y="137.0" />
-                  <point x="219.5" y="56.0" />
-                  <point x="186.83333333333331" y="56.0" />
-                  <point x="23.333333333333314" y="15.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="110.0" y="96.5" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -93,6 +42,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -137,26 +89,24 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="factory" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="pattern" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="237" />
-    <option name="y" value="61" />
-    <option name="width" value="1197" />
-    <option name="height" value="624" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="566" />
+    <option name="y" value="192" />
+    <option name="width" value="960" />
+    <option name="height" value="500" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -183,7 +133,7 @@
               <item name="GPHomework" type="b2602c69:ProjectViewProjectNode" />
               <item name="GPHomework" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +146,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pattern/factory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pattern/singleton" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
@@ -316,7 +266,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553323654338</updated>
-      <workItem from="1553323656567" duration="8227000" />
+      <workItem from="1553323656567" duration="9748000" />
+      <workItem from="1553428468691" duration="595000" />
+      <workItem from="1554171829824" duration="1508000" />
+      <workItem from="1554432093135" duration="1467000" />
+      <workItem from="1554700450898" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="工厂模式课后作业">
       <created>1553323807456</created>
@@ -339,44 +293,51 @@
       <option name="project" value="LOCAL" />
       <updated>1553332246432</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="工厂模式课后作业">
+      <created>1553334202495</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553334202495</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8227000" />
+    <option name="totallyTimeSpent" value="13913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="453" y="154" width="768" height="400" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.22489391" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" weight="0.3297587" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36193028" />
-      <window_info anchor="right" id="Database" />
-      <window_info id="Learn" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.57746476" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.22489391" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,13 +351,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="工厂模式课后作业" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pattern/factory/src/test/java/com/gupaoedu/homework/pattern/factory/CarFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/simple/CarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="304">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/simple/CarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/factory/src/test/java/com/gupaoedu/homework/pattern/factory/CarFactoryTest.java" />
     <entry file="file://$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/entity/INewEnergyCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -404,22 +373,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/entity/ICar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/function/BjevCarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -427,11 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="7" selection-start-line="7" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -446,10 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" selection-start-line="7" selection-end-line="8" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,12 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -484,10 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,10 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -506,14 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,14 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -546,107 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/entity/BjevCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern/factory/工厂方法模式类图.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.gupaoedu.homework.pattern.factory.function.ICarFactory</OriginalElement>
-          <nodes>
-            <node x="96.14374999999993" y="208.0">com.gupaoedu.homework.pattern.factory.function.BjevCarFactory</node>
-            <node x="206.99999999999997" y="104.0">com.gupaoedu.homework.pattern.factory.function.ICarFactory</node>
-            <node x="194.11874999999998" y="0.0">com.gupaoedu.homework.pattern.factory.entity.ICar</node>
-            <node x="383.0" y="104.0">com.gupaoedu.homework.pattern.factory.entity.BMWCar</node>
-            <node x="0.0" y="104.0">com.gupaoedu.homework.pattern.factory.entity.BjevCar</node>
-            <node x="387.30625" y="208.0">com.gupaoedu.homework.pattern.factory.function.BMWCarFactory</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.gupaoedu.homework.pattern.factory.function.BMWCarFactory" target="com.gupaoedu.homework.pattern.factory.function.ICarFactory">
-              <point x="-52.0" y="-27.0" />
-              <point x="413.30625" y="183.0" />
-              <point x="324.0" y="183.0" />
-              <point x="39.0" y="27.0" />
-            </edge>
-            <edge source="com.gupaoedu.homework.pattern.factory.function.ICarFactory" target="com.gupaoedu.homework.pattern.factory.entity.ICar">
-              <point x="0.0" y="-27.0" />
-              <point x="285.0" y="84.0" />
-              <point x="287.11875" y="84.0" />
-              <point x="0.0" y="27.0" />
-            </edge>
-            <edge source="com.gupaoedu.homework.pattern.factory.function.BjevCarFactory" target="com.gupaoedu.homework.pattern.factory.entity.BjevCar">
-              <point x="-51.99999999999994" y="-27.0" />
-              <point x="122.14374999999998" y="183.0" />
-              <point x="93.0" y="183.0" />
-              <point x="0.0" y="27.0" />
-            </edge>
-            <edge source="com.gupaoedu.homework.pattern.factory.entity.BjevCar" target="com.gupaoedu.homework.pattern.factory.entity.ICar">
-              <point x="0.0" y="-27.0" />
-              <point x="93.0" y="74.0" />
-              <point x="212.71875" y="74.0" />
-              <point x="-74.4" y="27.0" />
-            </edge>
-            <edge source="com.gupaoedu.homework.pattern.factory.function.BMWCarFactory" target="com.gupaoedu.homework.pattern.factory.entity.BMWCar">
-              <point x="0.0" y="-27.0" />
-              <point x="465.30625" y="183.0" />
-              <point x="476.0" y="183.0" />
-              <point x="0.0" y="27.0" />
-            </edge>
-            <edge source="com.gupaoedu.homework.pattern.factory.entity.BMWCar" target="com.gupaoedu.homework.pattern.factory.entity.ICar">
-              <point x="0.0" y="-27.0" />
-              <point x="476.0" y="84.0" />
-              <point x="324.31874999999997" y="84.0" />
-              <point x="37.19999999999999" y="27.0" />
-            </edge>
-            <edge source="com.gupaoedu.homework.pattern.factory.function.BjevCarFactory" target="com.gupaoedu.homework.pattern.factory.function.ICarFactory">
-              <point x="52.00000000000006" y="-27.0" />
-              <point x="226.14374999999998" y="183.0" />
-              <point x="245.99999999999997" y="183.0" />
-              <point x="-39.0" y="27.0" />
-            </edge>
-            <edge source="com.gupaoedu.homework.pattern.factory.function.BjevCarFactory" target="com.gupaoedu.homework.pattern.factory.entity.ICar">
-              <point x="5.6843418860808015E-14" y="-27.0" />
-              <point x="174.14374999999998" y="183.0" />
-              <point x="196.49999999999997" y="183.0" />
-              <point x="196.49999999999997" y="84.0" />
-              <point x="249.91875" y="84.0" />
-              <point x="-37.19999999999999" y="27.0" />
-            </edge>
-            <edge source="com.gupaoedu.homework.pattern.factory.function.BMWCarFactory" target="com.gupaoedu.homework.pattern.factory.entity.ICar">
-              <point x="52.0" y="-27.0" />
-              <point x="517.30625" y="183.0" />
-              <point x="579.5" y="183.0" />
-              <point x="579.5" y="74.0" />
-              <point x="361.51874999999995" y="74.0" />
-              <point x="74.39999999999998" y="27.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="22.0" y="130.0" />
-          <SelectedNodes>
-            <node>com.gupaoedu.homework.pattern.factory.function.BjevCarFactory</node>
-            <node>com.gupaoedu.homework.pattern.factory.function.ICarFactory</node>
-            <node>com.gupaoedu.homework.pattern.factory.entity.ICar</node>
-            <node>com.gupaoedu.homework.pattern.factory.entity.BMWCar</node>
-            <node>com.gupaoedu.homework.pattern.factory.entity.BjevCar</node>
-            <node>com.gupaoedu.homework.pattern.factory.function.BMWCarFactory</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern/factory/抽象工厂类图.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/factory/工厂方法模式类图.uml" />
     <entry file="uml://JAVA/com.gupaoedu.homework.pattern.factory.abstruct.ICarFactory">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -668,7 +486,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="864.0" y="225.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="864.0" y="226.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -682,9 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" selection-start-line="13" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,7 +518,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="179.5" y="96.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="180.0" y="97.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
@@ -720,13 +535,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/factory/课后作业.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/factory/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/simple/CarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -736,45 +570,43 @@
           <ID>JAVA</ID>
           <OriginalElement>com.gupaoedu.homework.pattern.factory.simple.CarFactory</OriginalElement>
           <nodes>
-            <node x="107.11666666666666" y="162.0">com.gupaoedu.homework.pattern.factory.simple.CarFactory</node>
-            <node x="0.0" y="81.0">com.gupaoedu.homework.pattern.factory.entity.BMWCar</node>
-            <node x="128.5" y="0.0">com.gupaoedu.homework.pattern.factory.entity.ICar</node>
-            <node x="117.99999999999999" y="81.0">com.gupaoedu.homework.pattern.factory.entity.BjevCar</node>
+            <node x="" y="">com.gupaoedu.homework.pattern.factory.simple.CarFactory</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="com.gupaoedu.homework.pattern.factory.entity.BjevCar" target="com.gupaoedu.homework.pattern.factory.entity.ICar">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="com.gupaoedu.homework.pattern.factory.simple.CarFactory" target="com.gupaoedu.homework.pattern.factory.entity.BjevCar">
-              <point x="0.0" y="-15.5" />
-              <point x="162.11666666666667" y="137.0" />
-              <point x="163.5" y="137.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="com.gupaoedu.homework.pattern.factory.simple.CarFactory" target="com.gupaoedu.homework.pattern.factory.entity.BMWCar">
-              <point x="-36.66666666666666" y="-15.5" />
-              <point x="125.45" y="137.0" />
-              <point x="49.0" y="137.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="com.gupaoedu.homework.pattern.factory.entity.BMWCar" target="com.gupaoedu.homework.pattern.factory.entity.ICar">
-              <point x="0.0" y="-15.5" />
-              <point x="49.0" y="56.0" />
-              <point x="140.16666666666663" y="56.0" />
-              <point x="-23.333333333333343" y="15.5" />
-            </edge>
-            <edge source="com.gupaoedu.homework.pattern.factory.simple.CarFactory" target="com.gupaoedu.homework.pattern.factory.entity.ICar">
-              <point x="36.66666666666666" y="-15.5" />
-              <point x="198.7833333333333" y="137.0" />
-              <point x="219.5" y="137.0" />
-              <point x="219.5" y="56.0" />
-              <point x="186.83333333333331" y="56.0" />
-              <point x="23.333333333333314" y="15.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="110.0" y="96.5" />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-8.0" y="-69.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/entity/BjevCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/entity/ICar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.gupaoedu.homework.pattern.factory.entity.ICar">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.gupaoedu.homework.pattern.factory.entity.ICar</OriginalElement>
+          <nodes>
+            <node x="" y="">com.gupaoedu.homework.pattern.factory.entity.ICar</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="281.0" y="16.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
