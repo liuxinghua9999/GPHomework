@@ -3,9 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GPHomework.iml" filepath="$PROJECT_DIR$/.idea/GPHomework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headfirst/chapterOne/chapterOne.iml" filepath="$PROJECT_DIR$/headfirst/chapterOne/chapterOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern/factory/factory.iml" filepath="$PROJECT_DIR$/pattern/factory/factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headfirst/headfirst.iml" filepath="$PROJECT_DIR$/headfirst/headfirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern/pattern.iml" filepath="$PROJECT_DIR$/pattern/pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern/prototype/prototype.iml" filepath="$PROJECT_DIR$/pattern/prototype/prototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern/proxy/proxy.iml" filepath="$PROJECT_DIR$/pattern/proxy/proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/pattern/singleton/singleton.iml" filepath="$PROJECT_DIR$/pattern/singleton/singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
     </modules>
   </component>
 </project>

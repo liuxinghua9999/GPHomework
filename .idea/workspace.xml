@@ -2,26 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bbc3dd3-01ba-4b15-8321-20804026416d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/singleton.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/container/ContainerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/container/ContainerSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/hungry/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/hungry/HungryStaticSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/lazy/ExectorThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/lazy/LazyDoubleCheckSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/lazy/LazyInnerClassSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/lazy/LazySimpleSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/register/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern/singleton/src/main/java/com/gupaoedu/homework/pattern/singleton/register/EnumSingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headfirst/chapterOne/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/headfirst/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/DynamicDataSourceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderServiceStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/StaticDbRouteProxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dynamicproxy/jdkproxy/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dynamicproxy/jdkproxy/Meipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dynamicproxy/jdkproxy/MeipoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pattern/target/" />
     <ignored path="$PROJECT_DIR$/pattern/factory/target/" />
     <ignored path="$PROJECT_DIR$/pattern/singleton/target/" />
+    <ignored path="$PROJECT_DIR$/pattern/proxy/target/" />
+    <ignored path="$PROJECT_DIR$/pattern/prototype/target/" />
+    <ignored path="$PROJECT_DIR$/spring/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/headfirst/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +33,74 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pattern/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicDataSourceEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/DynamicDataSourceEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderServiceStaticProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderServiceStaticProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticDbRouteProxTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/StaticDbRouteProxTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,6 +150,13 @@
         <option value="$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/abstruct/BMWFactory.java" />
         <option value="$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/abstruct/CarFactoryTest.java" />
         <option value="$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/entity/BjevCar.java" />
+        <option value="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderDao.java" />
+        <option value="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/StaticDbrouteProxTest.java" />
+        <option value="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderService.java" />
+        <option value="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/DynamicDataSourceEntity.java" />
+        <option value="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderServiceStaticProxy.java" />
+        <option value="$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/StaticDbRouteProxTest.java" />
+        <option value="$PROJECT_DIR$/headfirst/pom.xml" />
       </list>
     </option>
   </component>
@@ -102,11 +179,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="566" />
-    <option name="y" value="192" />
-    <option name="width" value="960" />
-    <option name="height" value="500" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="25" />
+    <option name="y" value="75" />
+    <option name="width" value="1455" />
+    <option name="height" value="750" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -116,6 +193,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -127,26 +206,29 @@
             <path>
               <item name="GPHomework" type="b2602c69:ProjectViewProjectNode" />
               <item name="GPHomework" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GPHomework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GPHomework" type="462c0819:PsiDirectoryNode" />
+              <item name="headfirst" type="462c0819:PsiDirectoryNode" />
+              <item name="chapterOne" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GPHomework" type="b2602c69:ProjectViewProjectNode" />
               <item name="GPHomework" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pattern/singleton" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
@@ -168,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CarFactoryTest (1)">
+  <component name="RunManager" selected="Application.StaticDbRouteProxTest">
     <configuration name="CarFactoryTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gupaoedu.homework.pattern.factory.abstruct.CarFactoryTest" />
       <module name="factory" />
@@ -198,6 +280,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gupaoedu.homework.pattern.factory.function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StaticDbRouteProxTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupaoedu.homework.pattern.proxy.dbroute.StaticDbRouteProxTest" />
+      <module name="proxy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gupaoedu.homework.pattern.proxy.dbroute.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,9 +340,11 @@
       <item itemvalue="Application.CarFactoryTest" />
       <item itemvalue="Application.FunctionFactoryTest" />
       <item itemvalue="Application.CarFactoryTest (1)" />
+      <item itemvalue="Application.StaticDbRouteProxTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticDbRouteProxTest" />
         <item itemvalue="Application.CarFactoryTest (1)" />
         <item itemvalue="Application.FunctionFactoryTest" />
         <item itemvalue="Application.CarFactoryTest" />
@@ -271,6 +366,17 @@
       <workItem from="1554171829824" duration="1508000" />
       <workItem from="1554432093135" duration="1467000" />
       <workItem from="1554700450898" duration="595000" />
+      <workItem from="1557197006954" duration="3697000" />
+      <workItem from="1557467416105" duration="576000" />
+      <workItem from="1557718169613" duration="592000" />
+      <workItem from="1557977429494" duration="595000" />
+      <workItem from="1558316453899" duration="594000" />
+      <workItem from="1558509834512" duration="587000" />
+      <workItem from="1558663117967" duration="593000" />
+      <workItem from="1559796826487" duration="2838000" />
+      <workItem from="1560317872468" duration="595000" />
+      <workItem from="1560404700359" duration="591000" />
+      <workItem from="1560993355090" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="工厂模式课后作业">
       <created>1553323807456</created>
@@ -304,10 +410,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13913000" />
+    <option name="totallyTimeSpent" value="25765000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="453" y="154" width="768" height="400" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -318,11 +424,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32952926" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.57746476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34517425" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -333,7 +439,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.22489391" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.22489391" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -351,6 +457,146 @@
     <option name="LAST_COMMIT_MESSAGE" value="工厂模式课后作业" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderServiceStaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/StaticDbRouteProxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/StaticDbRouteProxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/DynamicDataSourceEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderServiceStaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/StaticDbRouteProxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/DynamicDataSourceEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderServiceStaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/StaticDbRouteProxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pattern/factory/src/main/java/com/gupaoedu/homework/pattern/factory/simple/CarFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -543,13 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pattern/factory/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -611,6 +850,60 @@
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/DynamicDataSourceEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/OrderServiceStaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern/proxy/src/main/java/com/gupaoedu/homework/pattern/proxy/dbroute/StaticDbRouteProxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
         </state>
       </provider>
     </entry>
